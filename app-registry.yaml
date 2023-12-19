@@ -5,5 +5,5 @@ metadata:
   name: app-repo
   namespace: flux-system
 spec:
-  image: index.docker.io/ryanyard/simple-acorn-app
+  image: index.docker.io/ryanyard/simple-acorn-app:v1.0.0
   interval: 1m0s
