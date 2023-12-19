@@ -5,6 +5,6 @@ metadata:
   namespace: acorn
 spec:
   deployArgs: {}
-  image: index.docker.io/ryanyard/simple-acorn-app:v1.0.0
+  image: index.docker.io/ryanyard/simple-acorn-app:v1.0.0 # {"$imagepolicy": "flux-system:app-policy"}
   ports:
   - targetPort: 80
