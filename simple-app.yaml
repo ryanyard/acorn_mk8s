@@ -1,0 +1,10 @@
+apiVersion: api.acorn.io/v1
+kind: App
+metadata:
+  name: red-bush
+  namespace: acorn
+spec:
+  deployArgs: {}
+  image: index.docker.io/ryanyard/simple-acorn-app:v1.0.0
+  ports:
+  - targetPort: 80
