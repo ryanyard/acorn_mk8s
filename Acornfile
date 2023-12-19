@@ -3,7 +3,7 @@ containers: {
   image: "nginx"
   ports: publish: "80/http"
   files: {
-   "/usr/share/nginx/html/index.html": "<h1>My First Acorn - v1.0.0!</h1>"
+   "/usr/share/nginx/html/index.html": "<h1>My First Acorn - v1.0.1!</h1>"
   }
  }
 }
